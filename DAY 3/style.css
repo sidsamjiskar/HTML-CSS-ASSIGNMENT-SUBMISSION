@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.one{
+    height: 700px;
+    width: 100%;
+    background-color: linen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+}
+
+
+.two{
+    height: 100px;
+    width: 100%;
+    background-color: linen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+}
+
+
+.one_child{
+    width: 400px;
+    height: 200px;
+    content: url(https://pilot.letsupgrade.in/uploads/Copy_of_LMS_BANNER_4_1_506c4c7f43.png);
+    
+}
+
+.two_child{
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;   
+}
