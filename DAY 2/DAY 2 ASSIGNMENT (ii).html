@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+</head>
+<body>
+
+	<form id="form1">
+		<label for="name">NAME :</label>
+		<input type="text" id="name" value="">
+		<br><br>
+		<label for="email">EMAIL :</label>
+  		<input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+  		<br><br>
+		<label for="birthday">DATE OF BIRTH :</label>
+		<input type="date" id="birthday" value="">
+		<br><br>
+		<label for="city">CITY :</label>
+		<input type="text" id="city" value="">
+	</form>
+
+	<br><br>
+
+	<button type="submit" form="form1" value="Submit">Submit</button>
+
+</body>
+</html>
